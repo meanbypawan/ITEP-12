@@ -1,0 +1,120 @@
+What is Java :-
+  a. Java is programming language
+             With the help of java we can develop varity of s/w
+              a. Console based app
+              b. Desktop 
+              c. Web application
+              d. Mobile[Android] application
+              f. Machine Learning
+              -----
+              -----
+              
+  Type of Programming
+    a. Low level [Binary|Machine Language | [0,1]]
+       For example :-
+        20 10 --> Add,Sub,Mul,Div........
+                  001 010 100 011
+                  
+        001 10100   1010
+             20     10
+             100010100101010 ------> Low Level
+             
+             hello  ---------------> High Level
+        
+    b. Middle level
+    
+    
+    c. High level           
+       a. Need to translate
+    
+    10100 -------> 20
+    hello -------> Translator------->101010000110001-----> execute
+                      |
+                   c--> c-compiler
+                   cpp-> cpp-compiler
+                   java-> java-compiler
+                   python-> python-interpreter   
+    
+    Compiler, Interpreter ---> Translator
+    
+    H.L----> Compiler----> Translate the code page wise
+   source-code-->Compiler----> 
+    
+    
+    -------------
+    
+    USA Computer ----> A ----> 87
+    China Computer---> A -----> 91
+    India Computer --> A -----> 65
+    
+    China Machine -----> India Machine
+        A (87)    ----->   G(87)          
+    
+    --------------------------------------
+    A ---> 65
+    B ---> 66
+     American Standard Code For Information Interchage
+     
+     A B C D E F G H
+    65 6 7 8 9 0 1 72  
+     
+  --------------------------------------------------------------------------
+  Java is a High Level Programming Language
+                      |----> function ----> Function Oriented---> C 
+                      |----> object
+                              |---Object based
+                              |---Object oriented
+                                   |---Partially Object Oriented
+                                   |---Fully Object Oriented
+                      
+  
+  Procedure Oriented[Top-Down] ----> Paradigm  ---> Style Of Programming
+  Object Oriented[Bottom-up]    ----> Paradigm
+   
+  function
+  object                    
+  partiall oo
+  fully oo
+--------------------
+  Low Level
+  High Level
+  Language Translator
+  Compiler
+  Interpreter
+  Function
+  Object
+  Paradigm
+  Top-Down Approach ---->
+  Bottom-up Approach --->
+  Syntax-java
+  Statement
+  Errors
+  characterset
+                          
+                      
+                      
+                      
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+     
+    
+    
+    
+    
