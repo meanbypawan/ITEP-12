@@ -90,7 +90,102 @@ What is Java :-
   Statement
   Errors
   characterset
-                          
+--------------------------------------
+Object Oriented :-
+  Why :- To encapsulate the data and function together into single unit[By Robert Lafore]                          
+  What :- It is style of programming.
+  How :-
+  OOPS :-
+  Encapsulation
+  Abstraction
+  Polymorphism
+  Inheritance
+  Object :-
+    1. It is real world entity
+    2. Object may have certain number of properties or may have cetain number of behavour or
+    may both.
+    3. If thing is an object then it must be existance.
+    4. Object is runtime entity
+    5. Object belongs to the class
+    
+  Class :-
+    1. Class is userdefined type
+    2. Class is the collection of similar type of object
+    3. Once we define a class then we can create 'n' number of object
+    4. Class is blue prin of object
+  
+  Encapsulation :- Wrapping of data and function into the single unit is called encapsulation.
+  
+  Word "Encapsulation" dervied from word "Capsule"
+  
+  Abstraction :-  Hiding unnecessary information form the user and showing only essentials things.
+  
+  Inheritance :- 
+    Technical :- When the object of one class acquire the properties of another object
+                           |							  |
+                          class A                                               class B 
+  
+  
+    General :- By using existing thing, to develpe something new but there should not be
+               any changes in existing thing.
+  
+    Java only support single parent concept. 
+    Types of Inheritance
+      1. Single Level
+      2. Multilevel
+      3. Hierarichal
+    
+  Polymorphism :- one thing has different-different implementation.
+  
+  
+        Cheeku--------> Home[Mammi, papa]---> Son
+                            [Wife] --------->Husband
+                        College ------------> Student
+                        Outside ------------>Friend    
+  
+      1. Compile Time Polymorphism/ static binding / Early Binding
+         Overloading [JT/JP]
+      
+      2. Runtime Polymophis/ Dynamic Binding / Late Binding
+         Overriding [JP] 
+---------------------------------------------------------------------------------------------
+     
+  Features :-
+    1. Java is simple
+    2. Java is object oriented programming language
+        a. Encapsulation
+        b. Abstraction
+        c. Polymorphism
+        d. Inheritance
+        e. Class
+        f. Object
+    3. Java is platform independent.    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+                      
                       
                       
                       
