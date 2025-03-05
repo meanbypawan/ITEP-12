@@ -1,0 +1,90 @@
+Listing existing database
+  show databases.
+
+Creating database;
+  create database infodb;  
+  
+ use infodb
+ 
+ 1. Primary key
+ 2. Foreign key
+ 3. not null
+ 4. unique key
+ 5. default
+ 6. auto_increment
+ 7. check
+ -------------------------------
+    char, varchar, text
+    
+    char v/s varchar
+    
+    primary key v/s unique key 
+ -------------------------------
+ create table employee(
+   id int primary key auto_increment,
+   name varchar(100) not null,
+   contact varchar(10) unique key,
+   age int(3) check(age>=18),
+   salary int default 10000 )
+   
+   
+   
+   alter table employee drop constraint "employee_chk_2"
+   
+   alter table employee add constraint employee_chk_1 check (age>=20)
+   
+   
+   insert into employee(name,contact,age) values('cheeku','9009111222',21)
+   
+   insert into employee(name,contact,age,salary)
+   values('peeku','9009111777',29,98000),
+   ('leesha','9009111333',25,128000),
+   ('neesha','9009111444',23,95000),
+   ('lili','9009111555',29,75000),
+   ('rinku','9009111666',28,91000)
+   --------------------------------------------------------------------
+   Development :-
+   Client Application
+   
+   Server Application
+   
+   Database Application
+   -----------------------------------------------------------------------
+   CRUD :-
+   C:- Create
+   R :- Reterive/Select
+   U:- Update
+   D: Delete
+   
+   Instagram
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
