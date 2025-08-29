@@ -1,0 +1,115 @@
+1️⃣ Basic MySQL Questions
+
+What is MySQL?
+
+Open-source relational database management system (RDBMS) using SQL.
+
+What are the differences between MySQL and SQL?
+
+SQL = language, MySQL = database software.
+
+What is the difference between CHAR and VARCHAR?
+
+CHAR(n) → fixed-length, VARCHAR(n) → variable-length.
+
+What are primary key, foreign key, and unique key?
+
+Primary key → unique identifier for table row.
+
+Foreign key → links tables.
+
+Unique key → ensures uniqueness but can be NULL.
+
+What are indexes in MySQL?
+
+Indexes improve query performance; can be PRIMARY, UNIQUE, FULLTEXT, INDEX.
+
+2️⃣ Intermediate Questions
+
+What is a View in MySQL?
+
+Virtual table based on a query; simplifies complex queries.
+
+What are joins? Explain types.
+
+Combines data from multiple tables. Types:
+
+INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL OUTER JOIN, SELF JOIN, CROSS JOIN.
+
+What is a stored procedure and trigger?
+
+Stored procedure → precompiled SQL code for repeated execution.
+
+Trigger → automatic action on INSERT, UPDATE, DELETE.
+
+What is normalization? Explain 1NF, 2NF, 3NF.
+
+Process to remove redundancy.
+
+1NF → atomic values
+
+2NF → no partial dependency
+
+3NF → no transitive dependency
+
+What is the difference between WHERE and HAVING?
+
+WHERE → filters rows before aggregation
+
+HAVING → filters groups after aggregation
+
+3️⃣ Advanced Questions
+
+What is the difference between DELETE, TRUNCATE, and DROP?
+
+DELETE → remove rows, can use WHERE, slower, logs changes
+
+TRUNCATE → remove all rows, faster, cannot use WHERE
+
+DROP → remove table structure permanently
+
+What are transactions? Explain ACID properties.
+
+Transactions = group of SQL operations executed as a single unit.
+
+ACID = Atomicity, Consistency, Isolation, Durability
+
+What is the difference between INNER JOIN and OUTER JOIN?
+
+INNER JOIN → only matching rows
+
+OUTER JOIN → includes matching + non-matching rows
+
+What are the differences between MyISAM and InnoDB?
+
+Feature	MyISAM	InnoDB
+Transaction	No	Yes
+Foreign Key	No	Yes
+Locking	Table-level	Row-level
+Crash Recovery	No	Yes
+
+What are temporary tables in MySQL?
+
+Tables created for session-specific tasks, automatically deleted at session end.
+
+4️⃣ Practical/Query Questions
+
+Write a query to find the second highest salary from the employee table.
+
+Write a query to list employees with their manager names using SELF JOIN.
+
+Write a query to count employees in each department (GROUP BY).
+
+Write a query to find employees not assigned to any department (NULL dept_id).
+
+Write a query to update salary by 10% for employees in IT department.
+
+5️⃣ Tips for Interviews
+
+Be familiar with DDL, DML, DCL, TCL commands.
+
+Practice joins, subqueries, aggregation, group by, having, order by.
+
+Know indexing, transactions, foreign keys.
+
+Be ready to explain real-world scenarios, e.g., normalization, employee-manager relationships.
