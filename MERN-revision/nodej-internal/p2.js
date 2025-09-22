@@ -57,8 +57,6 @@ crypto.pbkdf2("MPIF@1234", "wrwerwer", 1000000, 50, "sha512", (err, derivedKey) 
     if (err) throw err;
     console.log("Hashed Password:", derivedKey.toString('hex'));
   });
-
-
   console.log("At the end"); // V8 engine will take care
 
 

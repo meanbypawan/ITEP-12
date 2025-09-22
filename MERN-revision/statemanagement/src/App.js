@@ -1,5 +1,6 @@
 import { useEffect, useReducer } from "react";
 import axios from "axios";
+import ProductDetail from "./components/ProductDetail";
 /*
    "set-product"
    "delete-product"
@@ -31,26 +32,8 @@ function App(){
       dispatch({type:"set-product",payload: response.data.products});
   }
   return <>
-     <table className="table table-stripped">
-      <thead>
-        <tr>
-          <td>Id</td>
-          <td>Image</td>
-          <td>Title</td>
-          <td>Remove</td>
-        </tr>
-      </thead>
-      <tbody>
-        {state?.productList?.map((product,index)=>{return <tr key={product.id}>
-            <td>{product.id}</td>
-            <td>
-              <img src={product.thumbnail} width="50px" height="50px"/>
-            </td>
-            <td>{product.title}</td>
-            <td className="btn btn-outline-danger" onClick={()=>dispatch({type:"delete-product",payload: product.id})}>Delete</td>
-        </tr>})}
-      </tbody>
-     </table>
+     <ProductDetail state={state} dispatch={dispatch}/> 
+  
   </>
 }
 export default App;
